@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #62C3D9;
+    background-image: linear-gradient(to right,#62C3D9,#55D9D9);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-weather{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Weather img{
+  width: 300px;
+}
+.location{
+    color:#F2F2F2;
+    font-size:3.1em;
+    font-family: sans-serif;
+}
+.temp .temp-value{
+    color: #F2F2F2;
+    font-size: 6em;
+}
+.temp .temp-unit{
+    color:#F2F2F2;
+    font-size: 3.6em;
+}
+.climate{
+    color: #F2F2F2;
+    font-size: 4.1em;
+}
